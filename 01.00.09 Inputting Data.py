@@ -1,5 +1,5 @@
-  # Input statement without a prompt
-print("You Entered: " + (input()))
+firstname = input()  # Input statement without a prompt
+print("You Entered: " + firstname)
 
-  # Input statement with a prompt
-print("You Entered: " + (input("Enter Your Name:")))
+lastname = input("Enter Your Name:")  # Input statement with a prompt
+print("You Entered: " + lastname)
