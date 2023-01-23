@@ -1,0 +1,6 @@
+Students = int(input("How many students are there?"))
+Apples = int(input("How many apples are there?"))
+AperS = int(Students//Apples)
+print(AperS)
+print("There are " + AperS + " apples per student")
+print("There are " + Students%Apples + "apples per student")
