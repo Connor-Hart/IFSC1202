@@ -1,0 +1,5 @@
+Num = int(input("Enter Number:"))
+Next = (Num+1)
+Prev = (Num-1)
+print("Your next number is {}".format(Next))
+print("Your previous number is {}".format(Prev))
