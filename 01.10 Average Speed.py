@@ -1,0 +1,6 @@
+Length = float(input("Enter the length of the race in kilometers: "))
+Minute = float(input("Enter the amount of minutes in the race: "))
+Second = float(input("Enter the amount of seconds in ther race: "))
+Miles = (Length/1.61)
+TimeH = (Minute/60 + Second/3600)
+print(Miles/TimeH)
