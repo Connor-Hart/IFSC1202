@@ -1,0 +1,1 @@
+a = input("Enter Values Separated by Spaces: ").split( )

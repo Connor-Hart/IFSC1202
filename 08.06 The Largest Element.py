@@ -1,0 +1,5 @@
+a = input("Enter Values Separated by Spaces: ").split( )
+max = max(a)
+index = a.index(max)
+print("Largest Value: " + str(max))
+print("Index of Largest Value: " + str(index))
