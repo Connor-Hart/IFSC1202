@@ -1,0 +1,5 @@
+line = input(str("Enter a string: "))
+firsth = line.find("h")
+lasth = line.rfind("h")
+lineh = str(line[firsth:lasth+1])
+print(line[:firsth] + lineh[::-1] + line[lasth+1:])
